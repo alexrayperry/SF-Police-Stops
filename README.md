@@ -1,4 +1,4 @@
-Project Title: # SF-Police-Stops
+ # SF-Police-Stops
 
 Team Members:  Alex, Nithya, Francisco, Tran
 
