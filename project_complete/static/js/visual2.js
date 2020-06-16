@@ -162,18 +162,18 @@ var myChart = new Chart(ctx, {
             label: "Total Number of Arrests by Ethnicity",
             data: [aW, ah, aB, aA, aO],
             backgroundColor: [
-                'rgba(255, 99, 132, 0.9)',
                 'rgba(54, 162, 235, 0.9)',
-                'rgba(255, 206, 86, 0.9)',
                 'rgba(75, 192, 192, 0.9)',
-                'rgba(153, 102, 255, 0.9)'
+                'rgba(255, 206, 86, 0.9)',
+                'rgba(153, 102, 255, 0.9)',
+                'rgba(255, 99, 132, 0.9)'
             ],
             borderColor: [
-                'rgba(255, 99, 132, 1)',
                 'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
                 'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)'
+                'rgba(255, 206, 86, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 99, 132, 1)'
             ],
             borderWidth: 2
         }]
@@ -358,19 +358,19 @@ function buildBar () {
                 label: "Total Number of Arrests by Ethnicity",
                 data: [whiteGenderStops, hispanicGenderStops, blackGenderStops, asianPacGenderStops, otherGenderStops],
                 backgroundColor: [
-                    'rgba(255, 99, 132, 0.9)',
-                    'rgba(54, 162, 235, 0.9)',
-                    'rgba(255, 206, 86, 0.9)',
-                    'rgba(75, 192, 192, 0.9)',
-                    'rgba(153, 102, 255, 0.9)'
-                ],
-                borderColor: [
-                    'rgba(255, 99, 132, 1)',
-                    'rgba(54, 162, 235, 1)',
-                    'rgba(255, 206, 86, 1)',
-                    'rgba(75, 192, 192, 1)',
-                    'rgba(153, 102, 255, 1)'
-                ],
+                  'rgba(54, 162, 235, 0.9)',
+                  'rgba(75, 192, 192, 0.9)',
+                  'rgba(255, 206, 86, 0.9)',
+                  'rgba(153, 102, 255, 0.9)',
+                  'rgba(255, 99, 132, 0.9)'
+              ],
+              borderColor: [
+                  'rgba(54, 162, 235, 1)',
+                  'rgba(75, 192, 192, 1)',
+                  'rgba(255, 206, 86, 1)',
+                  'rgba(153, 102, 255, 1)',
+                  'rgba(255, 99, 132, 1)'
+              ],
                 borderWidth: 2
             }]
         },
@@ -499,19 +499,19 @@ function staticBar() {
                 label: "Total Number of Police Stops by Ethnicity",
                 data: [whiteStops, hispanicStops, blackStops, asianPacStops, otherStops],
                 backgroundColor: [
-                    'rgba(255, 99, 132, 0.9)',
-                    'rgba(54, 162, 235, 0.9)',
-                    'rgba(255, 206, 86, 0.9)',
-                    'rgba(75, 192, 192, 0.9)',
-                    'rgba(153, 102, 255, 0.9)'
-                ],
-                borderColor: [
-                    'rgba(255, 99, 132, 1)',
-                    'rgba(54, 162, 235, 1)',
-                    'rgba(255, 206, 86, 1)',
-                    'rgba(75, 192, 192, 1)',
-                    'rgba(153, 102, 255, 1)'
-                ],
+                  'rgba(54, 162, 235, 0.9)',
+                  'rgba(75, 192, 192, 0.9)',
+                  'rgba(255, 206, 86, 0.9)',
+                  'rgba(153, 102, 255, 0.9)',
+                  'rgba(255, 99, 132, 0.9)'
+              ],
+              borderColor: [
+                  'rgba(54, 162, 235, 1)',
+                  'rgba(75, 192, 192, 1)',
+                  'rgba(255, 206, 86, 1)',
+                  'rgba(153, 102, 255, 1)',
+                  'rgba(255, 99, 132, 1)'
+              ],
                 borderWidth: 2
             }]
         },
@@ -657,19 +657,19 @@ function dynamicBar () {
                 label: "Total Number of Police Stops by Ethnicity",
                 data: [whiteGenderStops, hispanicGenderStops, blackGenderStops, asianPacGenderStops, otherGenderStops],
                 backgroundColor: [
-                    'rgba(255, 99, 132, 0.9)',
-                    'rgba(54, 162, 235, 0.9)',
-                    'rgba(255, 206, 86, 0.9)',
-                    'rgba(75, 192, 192, 0.9)',
-                    'rgba(153, 102, 255, 0.9)'
-                ],
-                borderColor: [
-                    'rgba(255, 99, 132, 1)',
-                    'rgba(54, 162, 235, 1)',
-                    'rgba(255, 206, 86, 1)',
-                    'rgba(75, 192, 192, 1)',
-                    'rgba(153, 102, 255, 1)'
-                ],
+                  'rgba(54, 162, 235, 0.9)',
+                  'rgba(75, 192, 192, 0.9)',
+                  'rgba(255, 206, 86, 0.9)',
+                  'rgba(153, 102, 255, 0.9)',
+                  'rgba(255, 99, 132, 0.9)'
+              ],
+              borderColor: [
+                  'rgba(54, 162, 235, 1)',
+                  'rgba(75, 192, 192, 1)',
+                  'rgba(255, 206, 86, 1)',
+                  'rgba(153, 102, 255, 1)',
+                  'rgba(255, 99, 132, 1)'
+              ],
                 borderWidth: 2
             }]
         },

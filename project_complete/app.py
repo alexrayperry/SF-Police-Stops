@@ -5,10 +5,10 @@ from bson.json_util import dumps
 from bson.objectid import ObjectId
 from flask import request
 
+# Mongo Flask Connection
 
 app = Flask(__name__)
 
-mongo1 = PyMongo(app, uri='mongodb://localhost:27017/test_db')
 
 mongo2 = PyMongo(app, uri='mongodb://localhost:27017/police_db')
 
@@ -17,12 +17,13 @@ mongo2 = PyMongo(app, uri='mongodb://localhost:27017/police_db')
 def welcome():
     return render_template('landing_page.html')
 
-# Get Data for Jan 2015 Geo Map
-@app.route('/mongo1-data')
-def connect():
+
+# Get Data from 2015 Data 
+@app.route('/mongo2-data')
+def testconnect():
 
 # Find one record of data from the mongo database
-    stop_data = mongo1.db.collection
+    stop_data = mongo2.db.collection
 
     db_data = []
 
@@ -42,27 +43,7 @@ def show():
  return render_template('map.html')
 
 
-
-# Get Data from 2015 Data for Bar Plots
-@app.route('/mongo2-data')
-def testconnect():
-
-# Find one record of data from the mongo database
-    stop_data = mongo2.db.collection
-
-    db_data = []
-
-    for stop in stop_data.find():
-        stop.pop('_id')
-        db_data.append(stop)
-    
-    # Return template and data
-    return jsonify(db_data)
-
-
-
-
-# Potential Interactive Bar Chart
+#  Interactive Bar Chart
 @app.route('/visual2')
 def show2():
 
